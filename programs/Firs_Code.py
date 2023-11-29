@@ -2,10 +2,9 @@ import os
 from openai import OpenAI
 from openai.types import Model
 import openai
-from openai import OpenAI
 
 client = OpenAI(
-  api_key=os.environ['API_KEY'],  # this is also the default, it can be omitted
+  api_key=os.environ['API_KEY']  # this is also the default, it can be omitted
 )
 
 # Calling the API and listing models
